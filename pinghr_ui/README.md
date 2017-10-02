@@ -1,4 +1,4 @@
-# RMS
+# PingHR
 
 ## Development server
 
