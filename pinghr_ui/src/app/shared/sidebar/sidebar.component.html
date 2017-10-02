@@ -1,0 +1,45 @@
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li>
+                    <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
+                </li>
+                
+                <li class="nav-devider"></li>
+
+                <li class="user-profile">
+                    <a class="has-arrow" routerLink="/myinfo" [routerLinkActive]="['router-link-active']"><img src="assets/images/users/sahul.png" alt="user" /><span class="hide-menu">My Info</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                            <li><a routerLink="/myprofile" [routerLinkActive]="['router-link-active']">My Profile</a></li>
+                            <li><a routerLink="/orgchart" [routerLinkActive]="['router-link-active']">Org Chart</a></li>
+                            <li><a routerLink="/training" [routerLinkActive]="['router-link-active']">Training</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-devider"></li>
+                <li>
+                    <a routerLink="/employees" [routerLinkActive]="['router-link-active']"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Employees</span></a>
+                </li>
+                <li class="nav-devider"></li>
+                <li>
+                    <a routerLink="/clients" [routerLinkActive]="['router-link-active']"><i class="mdi mdi-rocket"></i><span class="hide-menu">Clients</span></a>
+                </li>
+                <li class="nav-devider"></li>
+                <li>
+                    <a routerLink="/reports" [routerLinkActive]="['router-link-active']"><i class="mdi mdi-table"></i><span class="hide-menu">Reports</span></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
